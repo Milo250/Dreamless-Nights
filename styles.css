@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: courier new, monospace;
     background-color: #1A1A2E; /* Dark navy blue background */
     color: #EAEAEA; /* Light gray text */
     display: flex;
