@@ -1,74 +1,35 @@
 body {
+    margin: 0;
+    font-family: courier new, monospace;
+    background-color: #1A1A2E; /* Dark navy blue background */
+    color: #EAEAEA; /* Light gray text */
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #282c34; /* Dark background for contrast */
-    color: white; /* Text color */
-    font-family: 'Courier New', monospace;
-    margin: 0;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
 }
 
 .container {
-    text-align: center;
-    margin-bottom: 50px;
+    padding: 20px;
 }
 
-#exploreButton {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #ff6347; /* Tomato */
+h1 {
+    font-size: 100px; /* Very large font size */
+    margin: 0;
+}
+
+button {
+    background-color: #007B7F; /* Teal button */
+    color: white; /* White button text */
     border: none;
     border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 20px; /* Larger font size for the button */
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-#exploreButton:hover {
-    background-color: #e5533d; /* Darker shade on hover */
-}
-
-.shapes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Space between shapes */
-}
-
-.shape {
-    position: relative;
-}
-
-.circle {
-    width: 100px;
-    height: 100px;
-    background-color: #4682b4; /* Steel Blue */
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: #32cd32; /* Lime Green */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.triangle {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #ffa500; /* Orange */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.oval {
-    width: 150px;
-    height: 75px;
-    background-color: #ff69b4; /* Hot Pink */
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+button:hover {
+    background-color: #005B5B; /* Darker teal on hover */
 }
